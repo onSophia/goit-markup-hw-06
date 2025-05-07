@@ -1338,4 +1338,13 @@ input:checked+label>span {
     .footer-subscribe {
         padding-left: 108px;
     }
+
+    .modal-window {
+        width: 408px;
+        height: 584px;
+    }
+
+    .modal-p {
+        margin-top: 0;
+    }
 }
