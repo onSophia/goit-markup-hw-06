@@ -253,7 +253,7 @@ input {
     margin-bottom: 8px;
 }
 
-@media (min-width:1440px) {
+@media (min-width:1158px) {
     .iconka {
         display: flex;
     }
@@ -1055,8 +1055,6 @@ input:checked+label>span {
     display: none;
     gap: 40px;
     list-style-type: none;
-    width: 344px;
-    height: 24px;
     margin-left: 332px;
     margin-top: 24px;
     margin-right: 162px;
@@ -1190,7 +1188,7 @@ input:checked+label>span {
     color: #404BBF;
 }
 
-@media (min-width:321px) {
+@media (min-width: 768px) {
 
     .logo-ulstudio {
         font-family: var(--font-family);
@@ -1223,7 +1221,7 @@ input:checked+label>span {
     }
 
     .info {
-        width: 768px;
+        width: 100%;
         height: 72px;
     }
 
@@ -1242,7 +1240,7 @@ input:checked+label>span {
     }
 
     .beginning {
-        width: 768px;
+        width: 100%;
         height: 436px;
         padding-top: 112px;
     }
@@ -1293,7 +1291,7 @@ input:checked+label>span {
     .team {
         background-color: #F4F4FD;
         padding: 60px 0 120px;
-        width: 768px;
+        width: 100%;
         height: 1224px;
     }
 
@@ -1303,6 +1301,10 @@ input:checked+label>span {
         list-style-type: none;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .team-li {
+        width: calc((100% - 48px) / 2);
     }
 
     .portfolio-team {
@@ -1319,7 +1321,7 @@ input:checked+label>span {
     }
 
     .footer {
-        width: 768px;
+        width: 100%;
         height: 456px;
     }
 
@@ -1346,5 +1348,115 @@ input:checked+label>span {
 
     .modal-p {
         margin-top: 0;
+    }
+}
+
+@media (min-width: 1158px) {
+
+    .info-container {
+        padding-top: 3px;
+    }
+
+    .address-ul {
+        flex-direction: row;
+    }
+
+    .nav-info {
+        margin-right: 317px;
+    }
+
+    .logo-ulstudio {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
+
+    .link-address {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+    }
+
+    .address-ul {
+        margin-top: 24px;
+    }
+
+    .beginning {
+        height: 600px;
+        padding-top: 188px;
+    }
+
+    .beginning-head {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 107%;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+
+    .description {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+
+    .description-ul {
+        flex-wrap: nowrap;
+    }
+
+    .description-li {
+        width: 264px;
+        height: 224px;
+    }
+
+    .description-head {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: var(--navy-blue);
+    }
+
+    .description-title {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: var(--slate);
+        width: 264px;
+    }
+
+    .team {
+        height: 780px;
+    }
+
+    .portfolio-li {
+        width: calc((100% - 48px) / 3);
+    }
+
+    .footer {
+        height: 312px;
+        padding-top: 100px;
+    }
+
+    .container-footer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .containerr-footer {
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-subscribe {
+        padding: 0;
     }
 }
