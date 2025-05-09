@@ -1393,6 +1393,7 @@ input:checked+label>span {
 
     .hea-address {
         display: flex;
+        margin-top: 0px;
     }
 
     .nav-info {
