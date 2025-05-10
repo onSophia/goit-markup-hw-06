@@ -176,11 +176,11 @@ input {
 }
 
 .beginning-button:hover {
-    background-color: #404BBF;
+    background-color: #31D0AA;
 }
 
 .beginning-button:focus {
-    background-color: #404BBF;
+    background-color: #31D0AA;
 }
 
 .visually-hidden {
@@ -301,6 +301,7 @@ input {
     justify-content: center;
     gap: 24px;
     list-style-type: none;
+    padding-top: 8px;
 }
 
 .team-contacts-li {
@@ -320,11 +321,11 @@ input {
 }
 
 .team-contacts-a:hover {
-    background-color: #404bbf;
+    background-color: #31D0AA;
 }
 
 .team-contacts-a:focus {
-    background-color: #404bbf;
+    background-color: #31D0AA;
 }
 
 .team-contacts-svg {
